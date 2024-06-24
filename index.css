@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sectionMainCovert {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+
+}
+h1{
+    font-size: 35px;
+    color: rgba(30, 86, 131, 0.892);
+}
+.divmainAllQA {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMAinQA {
+    width: 100%;
+    max-width: 700px;
+    min-height: 60px;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.divQ {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(30, 86, 131, 0.892);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px 5px 5px 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.divA {
+    height: 0px;
+    overflow: hidden;
+    background-color: rgba(45, 103, 145, 0.148);
+    transition: height .5s;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 0px 0px 3px 3px;
+}
+.spanAnswerResult{
+    color: black;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.inputs{
+    margin: 10px 0px;
+    width: 150px;
+    height: 38px;
+    outline: none;
+    border: 1px solid rgba(27, 98, 153, 0.432);
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    font-size: 15px;
+
+}
+.btnS{
+    width: 100px;
+    height: 38px;
+    border: 1px solid rgba(30, 86, 131, 0.468);
+    background-color: rgba(30, 86, 131, 0.807);
+    color: white;
+    border-radius: 4px;
+    margin: 0px 5px 0px 10px;
+    cursor: pointer;
+    transition: background-color .4s ;
+}
+.iconChange{
+    margin-right: 2px;
+}
+.btnS:hover{
+    background-color: white;
+    color: rgba(23, 85, 136, 0.938);   
+    transition: background-color .4s ;
+
+}
+.btnChange{
+    width: 100px;
+    height: 38px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 0px 5px 0px 10px;
+    cursor: pointer;
+}
