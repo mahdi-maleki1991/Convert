@@ -2,10 +2,10 @@
     "short_name": "Convert",
     "name": "Convert App",
     "display": "standalone",
-    "background_color": "rgba(30, 86, 131, 0.892)",
     "them_color": "rgba(30, 86, 131, 0.892)",
     "start_url": "/",
     "orientation": "landscape",
+    "dir": "ltr",
     "icons": [
         {
             "src": "assets/icons/icon-36x36.png",
